@@ -16,4 +16,11 @@ public class Mage extends Character{
         return attackAction();
 
     }
+
+    @Override
+    public void hpCheck() {
+        if(this.HP < 0 || this.HP == 0){
+            System.out.println(this.name + " has been downed!");
+        }
+    }
 }

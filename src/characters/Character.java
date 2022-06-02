@@ -64,4 +64,6 @@ public class Character {
     public int defenseAction(){
         return (int) (Math.random() * (40 - 20) + 20) + this.defense;
     }
+
+    public void hpCheck(){}
 }
